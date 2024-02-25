@@ -28,7 +28,7 @@ class NavigationBar extends Component {
                             navbarScroll
                         >
                             <NavLink className="nav-link mx-3" to="/category" end>Car Category</NavLink>
-                            <NavLink className="nav-link mx-3" to="/rent" end>My Rent</NavLink>
+                            <NavLink className="nav-link mx-3" to="/" end>My Rent</NavLink>
                             {this.props.type === 'owner' ? <NavLink className='nav-link' to="/add-car">Add Car</NavLink> : <></>}
                         </Nav>
 

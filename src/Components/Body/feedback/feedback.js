@@ -91,7 +91,7 @@ const FeedBack = props => {
                             <textarea className="form-control mb-3"
                                 name="car_detail"
                                 rows={7}
-                                placeholder="description..."
+                                placeholder="Description"
                                 onChange={handleChange}
                                 onBlur={handleBlur}
                                 value={values.car_detail}
